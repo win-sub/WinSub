@@ -3,73 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Winsub</title>
+    <title>WinSub</title>
     <style>
         body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            height: 100vh;
-            background: url('https://path-to-your-image.jpg') no-repeat center center fixed;
-            background-size: cover;
-            font-family: Arial, sans-serif;
-            color: white;
             text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            overflow: hidden;
         }
-
         h1 {
             font-size: 36px;
-            color: white;
+            margin-top: 100px;
         }
-
         p {
-            font-size: 18px;
-            color: red;
-            margin-top: 10px;
+            font-size: 16px;
         }
-
-        a {
-            font-size: 18px;
+        .gray {
+            color: gray;
+        }
+        .red {
+            color: red;
+        }
+        .link {
             color: white;
             text-decoration: none;
-            font-weight: bold;
         }
-
-        a:hover {
-            color: #ff4500;
+        /* Hiệu ứng mã nguồn chạy */
+        @keyframes code {
+            0% { opacity: 0; transform: translateY(-10px); }
+            100% { opacity: 1; transform: translateY(0); }
         }
-
-        .binary {
-            position: absolute;
-            bottom: 10px;
-            width: 100%;
-            text-align: center;
-            font-size: 14px;
-            color: #00ff00;
+        .code {
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            color: green;
             white-space: nowrap;
-            animation: binaryAnimation 1s linear infinite;
-        }
-
-        @keyframes binaryAnimation {
-            0% { opacity: 1; }
-            50% { opacity: 0.5; }
-            100% { opacity: 1; }
+            overflow: hidden;
+            text-overflow: ellipsis;
+            animation: code 2s infinite;
         }
     </style>
 </head>
 <body>
-    <h1>CHÀO MỪNG BẠN ĐẾN VỚI WINSUB</h1>
-    <p>DỊCH VỤ TĂNG TƯƠNG TÁC GIÁ RẺ HÀNG ĐẦU VIỆT NAM</p>
-    <p>Hiện Tại Web Đang Bị Delay Hãy Liên Hệ Với CEO</p>
-    <a href="https://www.facebook.com/WinSub1/" target="_blank">Liên hệ Facebook</a>
-    
-    <!-- Binary Code Animation -->
-    <div class="binary">
-        1010100101001010110011101010101011001010110010010101010101010101...
+    <h1>CHÀO MỪNG BẠN ĐẾN VỚI WINSUB HỆ THỐNG DỊCH VỤ MẠNG XÃ HỘI - SOCIAL MEDIA MARKETING 2024</h1>
+    <p class="gray">Nền Tảng Tăng Tương Tác Uy Tín Và Tin Cậy Nhất Cho Các Dịch Vụ Truyền Thông Mạng Xã Hội.</p>
+    <p class="red">Hiện Tại Web Đang Bị Delay Hãy Liên Hệ Với CEO</p>
+    <p><a class="link" href="https://www.facebook.com/WinSub1/" target="_blank">Facebook - WinSub1</a></p>
+    <div class="code">
+        <!-- Bạn có thể thêm hiệu ứng mã nguồn ở đây -->
+        <p>Running code...</p>
     </div>
 </body>
 </html>
