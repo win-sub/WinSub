@@ -1,0 +1,133 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://anhdepfree.com/wp-content/uploads/2021/12/background-den-cong-nghe_552489-768x432.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.welcome-section {
+    text-align: center;
+    margin: 100px 20px;
+}
+
+.welcome-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.features-section {
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.features-header {
+    text-align: left;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.features-header h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.features-header p {
+    color: gray;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.feature {
+    max-width: 30%;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: gray;
+    font-size: 1rem;
+}
+
+.categories-section {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.categories-content {
+    margin-left: 20px;
+}
+
+.categories-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.categories-content p {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.categories-content ul {
+    list-style: none;
+}
+
+.categories-content li {
+    margin-bottom: 10px;
+}
+
+.icon {
+    max-width: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
