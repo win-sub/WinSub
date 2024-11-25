@@ -181,8 +181,8 @@
         <h1>SOCIAL MEDIA MARKETING 2024</h1>
         <p>Nền Tảng Tăng Tương Tác Uy Tín Và Tin Cậy Nhất Cho Các Dịch Vụ Truyền Thông Mạng Xã Hội.</p>
         <div class="button-group">
-            <button onclick="showPopup()">Đăng Nhập</button>
-            <button onclick="showPopup()">Đăng Ký</button>
+            <button onclick="goHome()">Đăng Nhập</button>
+            <button onclick="goHome()">Đăng Ký</button>
         </div>
     </div>
 
