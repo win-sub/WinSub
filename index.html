@@ -1,6 +1,50 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WinSub</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            margin-top: 100px;
+        }
+        p {
+            font-size: 16px;
+        }
+        .gray {
+            color: gray;
+        }
+        .red {
+            color: red;
+        }
+        .link {
+            color: white;
+            text-decoration: none;
+        }
+        /* Hiệu ứng mã nguồn chạy */
+        @keyframes code {
+            0% { opacity: 0; transform: translateY(-10px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        .code {
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            color: green;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            animation: code 2s infinite;
+        }
+    </style>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -24,7 +68,13 @@
   </style>
 </head>
 <body>
-
+    <h1>CHÀO MỪNG BẠN ĐẾN VỚI WINSUB HỆ THỐNG DỊCH VỤ MẠNG XÃ HỘI - SOCIAL MEDIA MARKETING 2024</h1>
+    <p class="gray">Nền Tảng Tăng Tương Tác Uy Tín Và Tin Cậy Nhất Cho Các Dịch Vụ Truyền Thông Mạng Xã Hội.</p>
+    <p class="red">Hiện Tại Web Đang Bị Delay Hãy Liên Hệ Với CEO</p>
+    <p><a class="link" href="https://www.facebook.com/WinSub1/" target="_blank">Facebook - WinSub1</a></p>
+    <div class="code">
+        <!-- Bạn có thể thêm hiệu ứng mã nguồn ở đây -->
+        <p>Running code...</p>
   <!-- Đoạn header và navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">WinSub</a>
@@ -48,7 +98,6 @@
       </ul>
     </div>
   </nav>
-
   <!-- Nội dung chính -->
   <div class="container mt-5">
     <div id="about" class="row">
@@ -57,7 +106,6 @@
         <p>WinSub cung cấp các dịch vụ mạng xã hội, hỗ trợ quảng bá và tăng tương tác cho các nền tảng mạng xã hội của bạn. Chúng tôi cam kết mang lại kết quả tốt nhất cho mọi chiến dịch marketing của bạn.</p>
       </div>
     </div>
-
     <div id="services" class="row mt-5">
       <div class="col text-center">
         <h2>Dịch Vụ Của Chúng Tôi</h2>
@@ -70,7 +118,6 @@
       </div>
     </div>
   </div>
-
   <!-- Modal liên hệ -->
   <div class="modal fade" id="ModalLg" tabindex="-1" role="dialog" aria-labelledby="ModalLgTitle" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -82,25 +129,34 @@
           </button>
         </div>
         <div class="modal-body">
-          <p>Bạn có thể liên hệ với WinSub qua Facebook tại đây:</p>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nhập email của bạn">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Mật khẩu</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Nhập mật khẩu của bạn">
+          </div>
+          <button type="submit" class="btn btn-primary">Đăng ký</button>
         </div>
         <div class="modal-footer">
-          <a href="https://www.facebook.com/WinSub1/" class="btn btn-secondary" target="_blank">Liên hệ với Facebook</a>
+          <a href="https://www.facebook.com/WinSub1/" class="btn btn-secondary" target="_blank">Liên hệ</a>
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+          <a href="https://www.facebook.com/WinSub1/" class="btn btn-primary" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" width="30" height="30" alt="Facebook Logo">
+            Facebook
+          </a>
         </div>
       </div>
     </div>
   </div>
-
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-3">
     <p>&copy; 2024 WinSub. Tất cả quyền lợi thuộc về WinSub.</p>
   </footer>
-
   <!-- Script JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 </body>
 </html>
