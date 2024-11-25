@@ -1,67 +1,111 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Winsub</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            background: url('https://path-to-your-image.jpg') no-repeat center center fixed;
-            background-size: cover;
-            font-family: Arial, sans-serif;
-            color: white;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            overflow: hidden;
-        }
-        h1 {
-            font-size: 36px;
-            color: white;
-        }
-        p {
-            font-size: 18px;
-            color: red;
-            margin-top: 10px;
-        }
-        a {
-            font-size: 18px;
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            color: #ff4500;
-        }
-        .binary {
-            position: absolute;
-            bottom: 10px;
-            width: 100%;
-            text-align: center;
-            font-size: 14px;
-            color: #00ff00;
-            white-space: nowrap;
-            animation: binaryAnimation 1s linear infinite;
-        }
-        @keyframes binaryAnimation {
-            0% { opacity: 1; }
-            50% { opacity: 0.5; }
-            100% { opacity: 1; }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WinSub - Dịch Vụ Mạng Xã Hội</title>
+  <!-- Sử dụng Bootstrap từ CDN -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .modal-content {
+      border-radius: 10px;
+    }
+    .modal-header {
+      background-color: #343a40;
+      color: white;
+    }
+    .modal-footer a {
+      background-color: #3b5998;
+      color: white;
+    }
+    .modal-footer button {
+      background-color: #6c757d;
+    }
+  </style>
 </head>
 <body>
-    <h1>CHÀO MỪNG BẠN ĐẾN VỚI WINSUB HỆ THỐNG DỊCH VỤ MẠNG XÃ HỘI</h1>
-    <h1>SOCIAL MEDIA MARKETING 2024</h1>
-    <p class="gray">Nền Tảng Tăng Tương Tác Uy Tín Và Tin Cậy Nhất Cho Các Dịch Vụ Truyền Thông Mạng Xã Hội.</p>
-    <p class="red">Hiện Tại Web Đang Bị Delay Hãy Liên Hệ Với CEO</p>
-    <a href="https://www.facebook.com/WinSub1/" target="_blank">Liên hệ Facebook</a>
-    <!-- Nội dung chính -->
+
+  <!-- Đoạn header và navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">WinSub</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Trang Chủ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Giới Thiệu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Dịch Vụ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact" data-toggle="modal" data-target="#ModalLg">Liên Hệ</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WINSUB</title>
+  <style>
+    body {
+      background-image: url('https://anhdepfree.com/wp-content/uploads/2021/12/background-den-cong-nghe_552489-768x432.jpg'); /* Đổi URL ảnh tại đây */
+      background-size: cover; /* Làm cho ảnh bao phủ toàn bộ màn hình */
+      background-position: center; /* Căn giữa ảnh */
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+    h1 {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 18px;
+      color: gray;
+      margin-bottom: 20px;
+    }
+    .highlight {
+      font-size: 18px;
+      color: red;
+      margin-bottom: 20px;
+    }
+    .contact-button {
+      font-size: 18px;
+      background-color: #3b5998;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    .contact-button:hover {
+      background-color: #365899;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CHÀO MỪNG BẠN ĐÃ ĐẾN VỚI WINSUB HỆ THỐNG DỊCH VỤ MẠNG XÃ HỘI</h1>
+  <h1>SOCIAL MEDIA MARKETING 2024</h1>
+  <p>Nền Tảng Tăng Tương Tác Uy Tín Và Tin Cậy Nhất Cho Các Dịch Vụ Truyền Thông Mạng Xã Hội.</p>
+  <p class="highlight"> Web Hiện Tại Đang Bị Delay - Liên Hệ Admin Để Hỗ Trợ !</p>
+
+  <!-- Nút liên hệ -->
+  <a href="https://www.facebook.com/WinSub1/" class="contact-button" target="_blank">Liên Hệ Qua Facebook</a><br>
+  <a href="tel:+84847005194" class="contact-button" target="_blank">Liên Hệ Qua Zalo: 0847005194</a>
+  <!-- Nội dung chính -->
     <div class="container mt-5">
     <div id="about" class="row">
       <div class="col text-center">
@@ -81,9 +125,33 @@
       </div>
     </div>
   </div>
-   <!-- Binary Code Animation -->
-    <div class="binary">
-        WINSUB ĐƯỢC PHÁT TRIỂN BỞI LÊ VĂN TRỌNG
+  <!-- Modal liên hệ -->
+  <div class="modal fade" id="ModalLg" tabindex="-1" role="dialog" aria-labelledby="ModalLgTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ModalLgTitle">Liên Hệ với WinSub</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Bạn có thể liên hệ với WinSub qua Facebook tại đây:</p>
+        </div>
+        <div class="modal-footer">
+          <a href="https://www.facebook.com/WinSub1/" class="btn btn-secondary" target="_blank">Liên hệ với Facebook</a>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+        </div>
+      </div>
     </div>
+  </div>
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 WinSub. Tất cả quyền lợi thuộc về WinSub.</p>
+  </footer>
+  <!-- Script JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
