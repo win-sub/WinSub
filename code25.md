@@ -268,7 +268,7 @@
         }
 
         function goHome() {
-            alert("⚠️ Web Đang Bị Delay - Liên Hệ Admin Để Hỗ Trợ ");
+            alert("⚠️ Web Đang Bị Delay - Liên Hệ Admin Để Hỗ Trợ. ");
         }
     </script>
 </body>
