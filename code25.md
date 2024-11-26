@@ -177,7 +177,7 @@
 
     <!-- Main Content -->
     <div class="container">
-        <h1>CHÀO MỪNG BẠN ĐÃ ĐẾN VỚI <span style="color: #FF69B4;">WINSUB</span> HỆ THỐNG DỊCH VỤ MẠNG XÃ HỘI</h1>
+        <h1>CHÀO MỪNG BẠN ĐÃ ĐẾN VỚI <span style="color: #ff0000;">W</span><span style="color: #ff5e00;">I</span><span style="color: #eeff00;">N</span><span style="color: #00ff0d;">S</span><span style="color: #0400ff;">U</span><span style="color: #a200ff;">B</span> HỆ THỐNG DỊCH VỤ MẠNG XÃ HỘI</h1>
         <h1>SOCIAL MEDIA MARKETING 2024</h1>
         <p>Nền Tảng Tăng Tương Tác Uy Tín Và Tin Cậy Nhất Cho Các Dịch Vụ Truyền Thông Mạng Xã Hội.</p>
         <div class="button-group">
@@ -188,37 +188,38 @@
 
     <!-- Features Section -->
     <div class="features">
-        <h2>Đặc Trưng ⭐️⭐️⭐️⭐️⭐️</h2>
+        <h2><span style="color: #ffffff;">Giải pháp của chúng tôi dành cho bạn</span> ⭐️⭐️⭐️⭐️⭐️</h2>
+        <p><span style="color: #c9c9c9;"><span style="color: #ff0000;">W</span><span style="color: #ff5e00;">I</span><span style="color: #eeff00;">N</span><span style="color: #00ff0d;">S</span><span style="color: #0400ff;">U</span><span style="color: #a200ff;">B</span> là việc sử dụng các nền tảng truyền thông xã hội như Instagram, Facebook, Youtube, TikTok, Shopee và nhiều nền tảng khác để quảng bá bản thân hoặc công ty của bạn.</span></p>
         <p class="feature-title">   Gia tăng lợi nhuận📊</p>
-        <p>Tạo ra lợi nhuận cho khách hàng là sứ mệnh của chúng tôi.</p>
+        <p><span style="color: #00ff0d;">✔</span><span style="color: #a5a5a5;">Tạo ra lợi nhuận cho khách hàng là sứ mệnh của chúng tôi.</span></p>
         <p class="feature-title">   Quản lý bảo mật🔒</p>
-        <p>Cam kết bảo mật thông tin khách hàng tuyệt đối.</p>
+        <p><span style="color: #00ff0d;">✔</span><span style="color: #a5a5a5;">Cam kết bảo mật thông tin khách hàng tuyệt đối.</span></p>
         <p class="feature-title">   Quản lý và hỗ trợ📲</p>
-        <p>Đồng hành cùng sự phát triển của bạn.</p>
+        <p><span style="color: #00ff0d;">✔</span><span style="color: #a5a5a5;">Đồng hành cùng sự phát triển của bạn.</span></p>
     </div>
     <div class="category">
         <div>
-            <h2>Nền Tảng Tăng Tương Tác Uy Tín Và Tin Cậy Nhất</h2>
-            <p>Những Gì Bạn Cần Tăng - Chúng Tôi Có Cung Cấp.</p>
-            <ul>
-                <li>✔ Dịch vụ Facebook 🥑</li>
-                <li>✔ Dịch vụ TikTok 🍒</li>
-                <li>✔ Dịch vụ Instagram 🍍</li>
-                <li>✔ Dịch vụ Telegram 🍇</li>
-                <li>✔ Dịch vụ YouTube 🍅</li>
-		<li>✔ Dịch vụ Threads 💐</li>
-                <li>✔ Dịch vụ X - Twitter 🎃</li>
-                <li>✔ Nhiều dịch vụ khác</li>
+            <h2>Nền Tảng Tăng Tương Tác Uy Tín Và Tin Cậy Nhất Cho Các Dịch Vụ Truyền Thông Mạng Xã Hội.</h2>
+            <p><span style="color: #c2c2c2;">Những Gì Bạn Cần Tăng - Chúng Tôi Có Cung Cấp Phát triển mọi nền tảng mạng xã hội của bạn với dịch vụ của chúng tôi.</span></p>
+            <ul> 
+                <li><span style="color: #00ff0d;">✔</span> Dịch vụ Facebook 🥑</li>
+                <li><span style="color: #00ff0d;">✔</span> Dịch vụ TikTok 🍒</li>
+                <li><span style="color: #00ff0d;">✔</span> Dịch vụ Instagram 🍍</li>
+                <li><span style="color: #00ff0d;">✔</span> Dịch vụ Telegram 🍇</li>
+                <li><span style="color: #00ff0d;">✔</span> Dịch vụ YouTube 🍅</li>
+		        <li><span style="color: #00ff0d;">✔</span> Dịch vụ Threads 💐</li>
+                <li><span style="color: #00ff0d;">✔</span> Dịch vụ X - Twitter 🎃</li>
+                <li><span style="color: #00ff0d;">✔</span> Nhiều dịch vụ khác</li>
             </ul>
         </div>
     </div>
     <!-- Footer -->
     <footer>
 
-        <p>© 2024 WINSUB. Quản lý vận hành bởi : 
+        <p>© 2024 <span style="color: #ff0000;">W</span><span style="color: #ff5e00;">I</span><span style="color: #eeff00;">N</span><span style="color: #00ff0d;">S</span><span style="color: #0400ff;">U</span><span style="color: #a200ff;">B</span>. Quản lý vận hành bởi : 
   <a href="https://www.facebook.com/WinSub1/" target="_blank" 
-   style="color: #00FFCC; font-weight: bold; font-size: 20px; text-decoration: none; transition: all 0.3s ease;"
-   onmouseover="this.style.textShadow = '0 0 5px #FF00FF, 0 0 10px #FF00FF, 0 0 15px #FF00FF, 0 0 20px #FF6347, 0 0 30px #FF6347, 0 0 40px #FF6347, 0 0 50px #FF6347'; this.style.color = '#FF6347';"
+   style="color: #00d9ff; font-weight: bold; font-size: 20px; text-decoration: none; transition: all 0.3s ease;"
+   onmouseover="this.style.textShadow = '0 0 5px #FF00FF, 0 0 10px #FF00FF, 0 0 15px #FF00FF, 0 0 20px #FF0000, 0 0 30px #FF0000, 0 0 40px #FF0000, 0 0 50px #FF00006347'; this.style.color = '#FF0000';"
    onmouseout="this.style.textShadow = ''; this.style.color = '#00FFCC';">Lê Văn Trọng</a>
 
 </p>
